@@ -168,7 +168,7 @@ module vga_enh_top (
 
 	// to wb_slave
 	wire stat_avmp, stat_acmp, vmem_swint, clut_swint, hint, vint, sint;
-	wire wmb_busy;
+	wire wbm_busy;
 	reg luint;
 	wire [ 3: 0] cc0_adr_i, cc1_adr_i;
 
